@@ -1,0 +1,19 @@
+
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 260px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.main {
+    background-color: black;
+    flex-grow: 1;
+}
